@@ -12,4 +12,9 @@ public class MovablePoint {
 		this.xSpeed = xSpeed;
 		this.ySpeed = ySpeed;
 }
+
+	@Override
+	public String toString() {
+		return "MovablePoint [x=" + x + ", y=" + y + ", xSpeed=" + xSpeed + ", ySpeed=" + ySpeed + "]";
+	}
 }
